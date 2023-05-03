@@ -2,7 +2,10 @@
   "name": "braingames",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/veroleded/BrainGames/issues"
   },
-  "homepage": "https://github.com/veroleded/BrainGames#readme"
+  "homepage": "https://github.com/veroleded/BrainGames#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
