@@ -2,12 +2,17 @@ import readlineSync from 'readline-sync';
 import select from '@inquirer/select';
 import text from './text.js';
 
-export const getUserName = (question) => {
-  const name = readlineSync.question(question(true)).trim();
+export const getUserName = (tryCount = 1) => {
+  let name = '';
+  if (tryCount === 1) {
+    name = readlineSync.question(text.start.question(true)).trim();
+  } else {
+    name = readlineSync.question(text.start.question(false)).trim();
+  }
   if (name.length > 0) {
     return name;
   }
-  return getUserName(question(false));
+  return getUserName(2);
 };
 
 export async function anotherTry() {

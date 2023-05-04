@@ -20,3 +20,7 @@ make lint
 ``` bash
 npm link
 ```
+
+## Examples
+
+[![asciicast](https://asciinema.org/a/8oVajZTD0Kb9oGwV9V455g0i6.svg)](https://asciinema.org/a/8oVajZTD0Kb9oGwV9V455g0i6)
