@@ -6,6 +6,14 @@
 
 ![install, build, test](https://github.com/veroleded/BrainGames/actions/workflows/main.yml/badge.svg)
 
+*"Brain Games"* is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed.  Games:
+
+* Calculator. Arithmetic expressions to be calculated.
+* Progression. Finding missing numbers in a sequence of numbers.
+* Determining an even number.
+* Determining the largest common divisor.
+* Determining a prime number.
+
 ## Install dependencies: 
 ``` bash
 make install
