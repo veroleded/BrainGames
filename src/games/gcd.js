@@ -1,8 +1,8 @@
 import { getRandomNum } from '../utils.js';
 
 const gcd = () => {
-  const numberOne = getRandomNum(0, 101);
-  const numberTwo = getRandomNum(0, 101);
+  const numberOne = getRandomNum(1, 101);
+  const numberTwo = getRandomNum(1, 101);
   const question = `${numberOne} ${numberTwo}`;
   if (numberOne === numberTwo) {
     return { question, correctAnswer: String(numberOne) };

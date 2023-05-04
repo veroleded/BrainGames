@@ -5,11 +5,13 @@ import selectGame from '../selectGame.js';
 import even from './even.js';
 import calc from './calc.js';
 import gcd from './gcd.js';
+import progression from './progression.js';
 
 const games = {
   even,
   calc,
   gcd,
+  progression,
 };
 
 const play = async (name) => {
@@ -33,20 +35,14 @@ const play = async (name) => {
 
   if (userAnswers.length === quantityRounds) {
     console.log(text.congratulations(name));
-
-    if (await anotherTry()) {
-      play(name);
-    } else {
-      console.log(text.bye(name));
-    }
   } else {
     console.log(text.errors);
+  }
 
-    if (await anotherTry()) {
-      play(name);
-    } else {
-      console.log(text.bye(name));
-    }
+  if (await anotherTry()) {
+    await play(name);
+  } else {
+    console.log(text.bye(name));
   }
 };
 

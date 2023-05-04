@@ -28,4 +28,7 @@ export default {
   gcd: {
     rules: 'Find the greatest common divisor of given numbers.',
   },
+  progression: {
+    rules: 'What number is missing in the progression?',
+  },
 };

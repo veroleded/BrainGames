@@ -17,6 +17,10 @@ export default async function selectGame() {
         name: 'brain-gcd',
         value: 'gcd',
       },
+      {
+        name: 'brain-progression',
+        value: 'progression',
+      },
     ],
   });
 

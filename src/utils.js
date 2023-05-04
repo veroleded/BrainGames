@@ -11,7 +11,7 @@ export const getUserName = (question) => {
 };
 
 export async function anotherTry() {
-  await select({
+  const answer = await select({
     message: text.anotherTry,
     choices: [
       {
@@ -24,6 +24,7 @@ export async function anotherTry() {
       },
     ],
   });
+  return answer;
 }
 
 export const getRandomNum = (min, max) => (
