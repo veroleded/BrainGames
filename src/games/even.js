@@ -1,5 +1,7 @@
+import { getRandomNum } from '../utils.js';
+
 const even = () => {
-  const number = Math.floor(Math.random() * (Math.floor(101) - Math.ceil(0))) + Math.ceil(0);
+  const number = getRandomNum(0, 101);
   const correctAnswer = number % 2 === 0 ? 'yes' : 'no';
   return { question: number, correctAnswer };
 };

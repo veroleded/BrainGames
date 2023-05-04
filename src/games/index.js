@@ -3,9 +3,13 @@ import { anotherTry } from '../utils.js';
 import text from '../text.js';
 import selectGame from '../selectGame.js';
 import even from './even.js';
+import calc from './calc.js';
+import gcd from './gcd.js';
 
 const games = {
   even,
+  calc,
+  gcd,
 };
 
 const play = async (name) => {
@@ -29,18 +33,16 @@ const play = async (name) => {
 
   if (userAnswers.length === quantityRounds) {
     console.log(text.congratulations(name));
-    await anotherTry();
 
-    if (anotherTry) {
+    if (await anotherTry()) {
       play(name);
     } else {
       console.log(text.bye(name));
     }
   } else {
     console.log(text.errors);
-    await anotherTry();
 
-    if (anotherTry) {
+    if (await anotherTry()) {
       play(name);
     } else {
       console.log(text.bye(name));

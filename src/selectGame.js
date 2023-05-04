@@ -9,6 +9,14 @@ export default async function selectGame() {
         name: 'brain-even',
         value: 'even',
       },
+      {
+        name: 'brain-calc',
+        value: 'calc',
+      },
+      {
+        name: 'brain-gcd',
+        value: 'gcd',
+      },
     ],
   });
 

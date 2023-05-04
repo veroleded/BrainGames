@@ -11,19 +11,11 @@
 make install
 ```
 
-## Tests:
-``` bash
-make test
-```
-
-## Test-coverage:
-``` bash
-make test-coverage
-```
 ## ESLint: 
 ``` bash
 make lint
 ```
+
 ## To globally install a package:
 ``` bash
 npm link

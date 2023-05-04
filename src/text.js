@@ -22,4 +22,10 @@ export default {
   even: {
     rules: 'Answer "yes" if the number is even, otherwise answer "no"',
   },
+  calc: {
+    rules: 'What is the result of the expression?',
+  },
+  gcd: {
+    rules: 'Find the greatest common divisor of given numbers.',
+  },
 };
