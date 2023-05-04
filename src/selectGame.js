@@ -21,6 +21,10 @@ export default async function selectGame() {
         name: 'brain-progression',
         value: 'progression',
       },
+      {
+        name: 'brain-prime',
+        value: 'prime',
+      },
     ],
   });
 

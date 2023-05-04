@@ -6,12 +6,14 @@ import even from './even.js';
 import calc from './calc.js';
 import gcd from './gcd.js';
 import progression from './progression.js';
+import prime from './prime.js';
 
 const games = {
   even,
   calc,
   gcd,
   progression,
+  prime,
 };
 
 const play = async (name) => {
