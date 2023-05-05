@@ -11,6 +11,11 @@
 * Determining the largest common divisor.
 * Determining a prime number.
 
+## Download:
+``` bash
+git clone git@github.com:veroleded/BrainGames.git
+```
+
 ## Install dependencies: 
 ``` bash
 make install
