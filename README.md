@@ -1,7 +1,7 @@
 # BrainGames
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/32e7168c017345cc5131/maintainability)](https://codeclimate.com/github/veroleded/BrainGames/maintainability)
-[![install, build, test](https://github.com/veroleded/BrainGames/actions/workflows/main.yml/badge.svg)](https://github.com/veroleded/BrainGames/actions)
+[![Action status](https://github.com/veroleded/BrainGames/actions/workflows/main.yml/badge.svg)](https://github.com/veroleded/BrainGames/actions)
 
 *"Brain Games"* is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed.  Games:
 
