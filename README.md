@@ -31,25 +31,6 @@ make lint
 npm link
 ```
 
-## Start Games
-```bash
-brain-games
-brain-even
-brain-calc
-brain-gcd
-brain-progression
-brain-prime
-```
-# or if the game is not installed globally
-```bash
-make brain-games
-make brain-even
-make brain-calc
-make brain-gcd
-make brain-progression
-make brain-prime
-```
-
 ## Examples
 
 [![asciicast](https://asciinema.org/a/8oVajZTD0Kb9oGwV9V455g0i6.svg)](https://asciinema.org/a/8oVajZTD0Kb9oGwV9V455g0i6)
